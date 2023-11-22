@@ -1,4 +1,4 @@
 baseURL = 'http://101.99.75.99'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'VonGoethe Hemsidor'
 theme = 'hugo-coder'
