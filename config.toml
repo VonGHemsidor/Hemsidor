@@ -1,0 +1,68 @@
+baseurl = "101.99.75.99"
+title = "VonGoethe hemsidor"
+theme = "hugo-coder"
+languagecode = "se"
+defaultcontentlanguage = "se"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "VonGoethe hemsidor"
+  info = "SEO-optimerade hemsidor med automatiskt betalsystem"
+  description = "Leverantör av sökmotoroptimerade hemsidor med automatiskt betalsystem"
+  keywords = "blog,developer,personal"
+  avatarurl = "/avatar.jpg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# # Social links
+# [[params.social]]
+#   name = "Hushboard"
+#    image = "images/social/site_logo.svg"
+#   weight = 1
+#   url = "https://github.com/johndoe/"
+# [[params.social]]
+#   name = "Gitlab"
+#   icon = "fa fa-gitlab fa-2x"
+#   weight = 2
+#   url = "https://gitlab.com/johndoe/"
+# [[params.social]]
+#   name = "Twitter"
+#   icon = "fa fa-twitter fa-2x"
+#   weight = 3
+#   url = "https://twitter.com/johndoe/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
+[[menu.main]]
+  name = "Om oss"
+  weight = 1
+  url = "about/"
